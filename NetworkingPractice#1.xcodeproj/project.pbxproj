@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		77D144F8309A04D100BD1593 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 77D144F7309A04D100BD1593 /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		77D144DE309A04BE00BD1593 /* NetworkingPractice#1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetworkingPractice#1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D144F8309A04D100BD1593 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = "NetworkingPractice#1";
 			packageProductDependencies = (
+				77D144F7309A04D100BD1593 /* SnapKit */,
 			);
 			productName = "NetworkingPractice#1";
 			productReference = 77D144DE309A04BE00BD1593 /* NetworkingPractice#1.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 77D144D5309A04BE00BD1593;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				77D144F6309A04D100BD1593 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 77D144DF309A04BE00BD1593 /* Products */;
 			projectDirPath = "";
@@ -341,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		77D144F6309A04D100BD1593 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		77D144F7309A04D100BD1593 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77D144F6309A04D100BD1593 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 77D144D6309A04BE00BD1593 /* Project object */;
 }
